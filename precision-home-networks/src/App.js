@@ -7,7 +7,7 @@ import Services from './pages/Services'
 import Navbar  from './components/Navbar';
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter >
       <Navbar />
 
       <Routes>

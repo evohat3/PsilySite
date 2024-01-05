@@ -5,7 +5,10 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
-    <App />
+    <div className='bg-slate-200 h-screen'>
+        <App />
+    </div>
+  
 
 );
 
