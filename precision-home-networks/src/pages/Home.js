@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="">
       <div className="text-center p-4 bg-white textfont">
-        <div className='animate__animated animate__backInRight'>Welcome To Precision Network Solutions!</div>
+        <div className='animate__animated animate__backInRight'>Welcome To Precision Home Network!</div>
         
       </div>
 
@@ -23,7 +23,7 @@ export default function Home() {
 
 </div>
 
-      <div className="grid grid-cols-1 gap-1 sm:grid-cols-1 md:grid-cols-3 text-center p-3 bg-slate-400 ">
+      <div className="grid grid-cols-1 gap-1 sm:grid-cols-1 md:grid-cols-3 text-center p-3 ">
       <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
  <div className="md:flex">
    <div className="md:flex-shrink-0">
