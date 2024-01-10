@@ -38,9 +38,9 @@ export default function Home() {
      <img className="size-1/3" src='https://i.imgur.com/X9VMHXy.png' alt='Computer Repair'/>
      </div>
 
-     <a href="Services" className={`block mt-1 text-lg leading-tight font-medium hover:bg-slate-300 hover:text-black `}>Computer Repair</a>
+     <a href="Services" className={`block mt-1 text-lg leading-tight font-medium hover:bg-slate-300 hover:text-black `}>Pc Repair</a>
 
-     <p className="mt-2 ">Description of the card contentDescription of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.</p>
+     <p className="mt-2 ">Experience reliable and hassle-free PC repair and setup services. Our skilled technicians expertly handle software issues, enhance your computer's performance, and upgrade hardware and storage. We also provide thorough virus removal and protection, ensuring your PC operates efficiently and remains secure.</p>
    </div>
  </div>
 </div>
@@ -62,7 +62,7 @@ export default function Home() {
     
 
 
-     <p className="mt-2">Description of the card content. Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.</p>
+     <p className="mt-2">Specializing in in-home WiFi and network services, we offer full-scale installation, configuration, repair, and ongoing maintenance. Our team is dedicated to efficient troubleshooting and network optimization. With our expertise, enjoy a seamlessly connected home environment with the fastest and most reliable internet speeds available.</p>
    </div>
  </div>
 </div>
@@ -80,10 +80,10 @@ export default function Home() {
      <img className="size-1/3" src='https://i.imgur.com/tzCmlMt.png' alt='IOT'/>
      </div>
 
-     <a href="Contact" className="block mt-1 text-lg leading-tight font-medium hover:bg-slate-300 hover:text-black">IOT</a>
+     <a href="Contact" className="block mt-1 text-lg leading-tight font-medium hover:bg-slate-300 hover:text-black">IoT</a>
 
 
-     <p className="mt-2">Description of the card contentDescription of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.</p>
+     <p className="mt-2">Upgrade to a Smart Home and enjoy the simplicity of controlling your lights, thermostat, and more, all from your smartphone or with just your voice. We specialize in setting up and securing your IoT devices, making your home not only smarter but also safer.</p>
    </div>
  </div>
 </div>
