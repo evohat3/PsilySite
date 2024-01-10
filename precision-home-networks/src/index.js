@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import {ThemeProvider} from './styles/Theme';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,9 +12,9 @@ root.render(
         backgroundRepeat: 'repeat',
         backgroundPosition: 'center center',
       }}>
-
-            <App />
-
+            <ThemeProvider>
+                <App />
+            </ThemeProvider>
         
     </div>
   
