@@ -1,7 +1,8 @@
-import React, {useContext}from 'react'
+import React, {useContext} from 'react'
 import "animate.css";
 import "../styles/font.css";
 import { ThemeContext } from '../styles/Theme';
+import Contact from './Contact'
 
 
 export default function Home() {
@@ -16,20 +17,20 @@ export default function Home() {
 
 <div className=' size-fit flex items-center justify-center w-full '>
 
-      <div className="text-zinc-200 text-center sm:text-sm md:text-md lg:text-2xl xl:text-3xl 2xl:text-4xl m-20 drop-shadow-[0_35px_35px_rgba(0,0,0,1)]">
-        <div className="m-4 p-4 focus-in-contract sans-serif">
-          Redefining Home Connectivity
+      <div className="text-zinc-200 text-center text-4xl sm:text-6xl md:text-6xl lg:text-6xl xl:text-6xl 2xl:text-6xl m-20 drop-shadow-[0_35px_35px_rgba(0,0,0,1)] p-4">
+        <div className="m-4 p-4 focus-in-contract sans-serif ">
+          REDEFINING HOME CONNECTIVITY
         </div>
         <div className="m-4 p-4 focus-in-contract sans-serif">
-          Where Precision Meets Performance
+          WHERE PRECISION MEETS PERFORMANCE
         </div>
       </div>
 
 </div>
 
-    <div className="grid grid-cols-1 gap-1 sm:grid-cols-1 md:grid-cols-3 text-center p-3 ">
+    <div className={`grid grid-cols-1 gap-1 sm:grid-cols-1 md:grid-cols-3 text-center p-3 backdrop-opacity-10 backdrop-invert ${isDarkMode ? 'bg-black' : 'bg-white'}`}>
 {/* CARD 1 */}
-      <div className={`max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-2xl ${isDarkMode ? 'bg-black text-white' : 'bg-white'}`}>
+      <div className={`max-w-md mx-auto rounded-xl shadow-md border-4 border-slate-600 overflow-hidden md:max-w-2xl ${isDarkMode ? 'bg-black text-white' : 'bg-white'}`}>
  <div className="md:flex">
    <div className="md:flex-shrink-0">
    </div>
@@ -47,7 +48,7 @@ export default function Home() {
 
 {/* CARD 2 */}
 
-<div className={`max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-2xl ${isDarkMode ? 'bg-black text-white' : 'bg-white'}`}>
+<div className={`max-w-md mx-auto rounded-xl shadow-md border-4 border-slate-600  overflow-hidden md:max-w-2xl ${isDarkMode ? 'bg-black text-white' : 'bg-white'}`}>
  <div className="md:flex">
    <div className="md:flex-shrink-0">
    </div>
@@ -69,7 +70,7 @@ export default function Home() {
 
 {/* Card 3 */}
 
-<div className={`max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl ${isDarkMode ? 'bg-black text-white' : 'bg-white text-black'}`}>
+<div className={`max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl border-4 border-slate-600  ${isDarkMode ? 'bg-black text-white' : 'bg-white text-black'}`}>
  <div className="md:flex">
    <div className="md:flex-shrink-0">
    </div>
@@ -90,8 +91,15 @@ export default function Home() {
 
 {/* ********* */}
 
-
       </div>
+
+
+<div className={`p-4 ${isDarkMode ? 'bg-black' : 'bg-slate-300'}`}>
+      <Contact />
+      </div>
+
+      
+
     </div>
   );
 }
