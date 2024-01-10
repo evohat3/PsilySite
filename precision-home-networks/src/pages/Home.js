@@ -30,8 +30,8 @@ export default function Home() {
    </div>
    <div className="p-8">
      <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold"></div>
-     <a href="Services" className="block mt-1 text-lg leading-tight font-medium text-black hover:bg-slate-300">Services</a>
-     <p className="mt-2 text-gray-500">Description of the card contentDescription of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.</p>
+     <a href="Services" className="block mt-1 text-lg leading-tight font-medium text-black hover:bg-slate-300">Pc Repair</a>
+     <p className="mt-2 text-gray-500">Experience reliable and hassle-free PC repair and setup services. Our skilled technicians expertly handle software issues, enhance your computer's performance, and upgrade hardware and storage. We also provide thorough virus removal and protection, ensuring your PC operates efficiently and remains secure.</p>
    </div>
  </div>
 </div>
@@ -42,8 +42,8 @@ export default function Home() {
    </div>
    <div className="p-8">
      <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold"></div>
-     <a href="About" className="block mt-1 text-lg leading-tight font-medium text-black hover:bg-slate-300">About</a>
-     <p className="mt-2 text-gray-500">Description of the card content. Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.</p>
+     <a href="About" className="block mt-1 text-lg leading-tight font-medium text-black hover:bg-slate-300">Home Netorking</a>
+     <p className="mt-2 text-gray-500">Specializing in in-home WiFi and network services, we offer full-scale installation, configuration, repair, and ongoing maintenance. Our team is dedicated to efficient troubleshooting and network optimization. With our expertise, enjoy a seamlessly connected home environment with the fastest and most reliable internet speeds available.</p>
    </div>
  </div>
 </div>
@@ -54,8 +54,8 @@ export default function Home() {
    </div>
    <div className="p-8">
      <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold"></div>
-     <a href="Contact" className="block mt-1 text-lg leading-tight font-medium text-black hover:bg-slate-300">Contact US</a>
-     <p className="mt-2 text-gray-500">Description of the card contentDescription of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.Description of the card content.</p>
+     <a href="Contact" className="block mt-1 text-lg leading-tight font-medium text-black hover:bg-slate-300">IoT</a>
+	   <p className="mt-2 text-gray-500">Upgrade to a Smart Home and enjoy the simplicity of controlling your lights, thermostat, and more, all from your smartphone or with just your voice. We specialize in setting up and securing your IoT devices, making your home not only smarter but also safer.</p>
    </div>
  </div>
 </div>
