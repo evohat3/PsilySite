@@ -40,10 +40,22 @@ export default function Contact() {
     }
    };
    
+   function formatPhoneNumber(phoneNumberString) {
+    let cleaned = ('' + phoneNumberString).replace(/\D/g, '');
+    let match = cleaned.match(/^(\d{3})(\d{3})(\d{4})$/);
+    if (match) {
+        return '(' + match[1] + ') ' + match[2] + '-' + match[3];
+    }
+    return null;
+ }
 
 
-
-
+ const handlePhoneInput = (event) => {
+    const formatted = formatPhoneNumber(event.target.value);
+    if (formatted !== null) {
+        setPhoneNo(formatted);
+    }
+ };
 
 
 
@@ -151,7 +163,7 @@ export default function Contact() {
                                 </svg>
                             </div>
                             <div className="relative flex items-center">
-                                <input type="number"  onChange={(e) => setPhoneNo(e.target.value)} placeholder="Phone No."
+                                <input type="tel" onChange={handlePhoneInput} placeholder="Phone No."
                                     className="px-2 py-3 bg-white text-black w-full text-sm border-b-2 focus:border-[#011c2b] outline-none" />
                                 <svg fill="#bbb" className="w-[18px] h-[18px] absolute right-2" viewBox="0 0 64 64">
                                     <path

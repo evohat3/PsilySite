@@ -9,7 +9,7 @@ app.use(cors({
   origin: 'http://localhost:3000'
 }));
 
-const workEmail = 'nigel.poblete@gmail.com'
+const workEmail = process.env.Email;
 const webSiteEMail = process.env.User;
 const Password = process.env.Password;
 
@@ -34,7 +34,7 @@ const transporter = nodemailer.createTransport({
       to: workEmail,
       subject: userInfo.subject,
       html:`
-      <div style="border: 1px solid black; padding: 10px;">
+      <div style="border: 1px solid black; padding: 10px;  background: black; color: white">
        <table>
          <tr>
            <td><strong>First Name:</strong> ${userInfo.first}</td>
@@ -46,7 +46,7 @@ const transporter = nodemailer.createTransport({
          </tr>
        </table>
       </div>
-      <div style="border: 1px solid black; padding: 10px; background: black; color: white">
+      <div style="border: 1px solid black; padding: 10px;">
       <table> 
       <p ><strong>Description:</strong> ${userInfo.customerText}</p>
       </table>
