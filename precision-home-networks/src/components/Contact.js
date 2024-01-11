@@ -55,14 +55,7 @@ export default function Contact() {
     if (formatted !== null) {
         setPhoneNo(formatted);
     }
- };
-
-
-
-
-
-
-   
+ }
 
   return (
     <div className={`max-w-6xl mx-auto my-6 font-[sans-serif] ${isDarkMode ? 'bg-black text-white' : 'bg-slate-300 text-[#011c2b]'}`}>
