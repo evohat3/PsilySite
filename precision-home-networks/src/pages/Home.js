@@ -2,7 +2,7 @@ import React, {useContext} from 'react'
 import "animate.css";
 import "../styles/font.css";
 import { ThemeContext } from '../styles/Theme';
-import Contact from './Contact'
+import Contact from '../components/Contact'
 
 
 export default function Home() {
