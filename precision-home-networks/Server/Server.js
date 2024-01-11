@@ -46,9 +46,9 @@ const transporter = nodemailer.createTransport({
          </tr>
        </table>
       </div>
-      <div style="border: 1px solid black; padding: 10px;">
+      <div style="border: 1px solid black; overflow-wrap: break-word;">
       <table> 
-      <p ><strong>Description:</strong> ${userInfo.customerText}</p>
+      <p><strong>Description:</strong> ${userInfo.customerText}</p>
       </table>
       <div/>
       `
