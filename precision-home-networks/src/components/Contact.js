@@ -135,7 +135,7 @@ export default function Contact() {
                         <div className="grid sm:grid-cols-2 gap-8">
                             <div className="relative flex items-center">
                                 <input onChange={(e) => setFirstName(e.target.value)} type="text" placeholder="First Name"
-                                    className="px-2 py-3 bg-white w-full text-sm border-b-2 focus:border-[#011c2b] outline-none" />
+                                    className="px-2 py-3 bg-white text-black w-full text-sm border-b-2 focus:border-[#011c2b] outline-none" />
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="#bbb" stroke="#bbb" className="w-[18px] h-[18px] absolute right-2"
                                     viewBox="0 0 24 24">
                                     <circle cx="10" cy="7" r="6" data-original="#000000"></circle>
@@ -146,7 +146,7 @@ export default function Contact() {
                             </div>
                             <div className="relative flex items-center">
                                 <input type="text" onChange={(e) => setLastName(e.target.value)} placeholder="Last Name"
-                                    className="px-2 py-3 bg-white w-full text-sm border-b-2 focus:border-[#011c2b] outline-none" />
+                                    className="px-2 py-3 bg-white text-black w-full text-sm border-b-2 focus:border-[#011c2b] outline-none" />
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="#bbb" stroke="#bbb" className="w-[18px] h-[18px] absolute right-2"
                                     viewBox="0 0 24 24">
                                     <circle cx="10" cy="7" r="6" data-original="#000000"></circle>
