@@ -14,7 +14,7 @@ export default function Contact() {
 
   const handleSubmit = async () => {
     try {
-      const response = await fetch('http://localhost:3001/send', {
+      const response = await fetch('http://localhost:3002/send', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

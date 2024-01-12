@@ -14,7 +14,7 @@ const webSiteEMail = process.env.User;
 const Password = process.env.Password;
 
 const transporter = nodemailer.createTransport({
-    host: 'smtp.gmail.com',
+    host: 'smtp.precisionhomenetworks.com',
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
@@ -66,7 +66,7 @@ const transporter = nodemailer.createTransport({
    });
 
 
-   const port = 3001;
+   const port = 3002;
 app.listen(port, () => {
  console.log(`Server is running on port: ${port}`);
 });
