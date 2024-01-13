@@ -6,7 +6,7 @@ const cors = require('cors');
 app.use(express.json());
 app.use(cors());
 app.use(cors({
-  origin: 'https://precision-home-networks-a600700bbe20.herokuapp.com/'
+  origin: 'https://precisionhomenetworks.com/'
 }));
 const path = require('path');
 
@@ -26,7 +26,7 @@ const webSiteEMail = process.env.User;
 const Password = process.env.Password;
 
 const transporter = nodemailer.createTransport({
-    host: 'smtp.gmail.com',
+    host: 'smtp.precisionhomenetworks.com',
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
