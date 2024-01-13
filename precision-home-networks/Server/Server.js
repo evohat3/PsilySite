@@ -6,7 +6,7 @@ const cors = require('cors');
 app.use(express.json());
 app.use(cors());
 app.use(cors({
-  origin: 'https://precisionhomenetworks.com/'
+  origin: 'http://localhost:3000'
 }));
 
 const workEmail = process.env.Email;
@@ -14,7 +14,7 @@ const webSiteEMail = process.env.User;
 const Password = process.env.Password;
 
 const transporter = nodemailer.createTransport({
-    host: 'smtp.precisionhomenetworks.com',
+    host: 'http://localhost:3002/',
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
