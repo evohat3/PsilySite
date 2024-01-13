@@ -66,7 +66,7 @@ const transporter = nodemailer.createTransport({
    });
 
 
-   const port = 3002;
+   const port = process.env.PORT || 3002;
 app.listen(port, () => {
  console.log(`Server is running on port: ${port}`);
 });
