@@ -14,7 +14,7 @@ const webSiteEMail = process.env.User;
 const Password = process.env.Password;
 
 const transporter = nodemailer.createTransport({
-    host: 'http://localhost:3002/',
+    host: 'smtp.gmail.com',
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
