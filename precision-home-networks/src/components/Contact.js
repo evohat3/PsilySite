@@ -30,7 +30,7 @@ export default function Contact() {
       });
    
       if (!response.ok) {
-        throw new Error('Network response was not ok');
+        throw new Error('Network response was not ok',  'RESPONSE STATUS =',response.status, 'status text=', response.statusText);
       }
 
       const data = await response.json();
