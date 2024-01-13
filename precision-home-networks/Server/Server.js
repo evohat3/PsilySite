@@ -6,7 +6,7 @@ const cors = require('cors');
 app.use(express.json());
 app.use(cors());
 app.use(cors({
-  origin: 'http://localhost:3000'
+  origin: 'https://precisionhomenetworks.com/'
 }));
 
 const workEmail = process.env.Email;
