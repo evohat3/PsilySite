@@ -14,7 +14,7 @@ export default function Contact() {
 
   const handleSubmit = async () => {
     try {
-      const response = await fetch('https://precision-home-networks-a600700bbe20.herokuapp.com//send', {
+      const response = await fetch('https://precision-home-networks-a600700bbe20.herokuapp.com/send', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
