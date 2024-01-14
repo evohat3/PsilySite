@@ -19,6 +19,13 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../build', 'index.html'));
 });
 
+app.use((req, res, next) => {
+  req.headers['X-Real-IP'] = req.connection.remoteAddress;
+  req.headers['X-Forwarded-For'] = req.headers['x-forwarded-for'] || '';
+  req.headers['X-Forwarded-Proto'] = req.protocol;
+  next();
+});
+
 
 
 const workEmail = process.env.Email;
